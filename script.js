@@ -7,8 +7,8 @@ titulo.style = "text-align: center;font-family:verdana"
 body.appendChild(titulo);
 
 const remove = document.createElement("h5");
-remove.innerText = "To remove a circle, just click on it";
-remove.style = "text-align: center;font-family:verdana"
+remove.innerHTML = "Click on <i><b>Add circle</b></i> to add a circle and if you want to remove it, just click on it";
+remove.style = "text-align: center;font-family:verdana;color:red"
 body.appendChild(remove);
 
 var addCircle = document.createElement("button");
